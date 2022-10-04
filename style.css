@@ -1,0 +1,194 @@
+body, h1, h2, h3, ul, p{
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #35424a;
+    border-bottom: 4px solid coral;
+}
+ 
+
+#header h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block;
+}
+ 
+#header .logo {
+    color: coral;
+}
+
+.navbar {
+    float: right;
+    background-color: #35424a;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 23px 15px;
+    display: inline-block;
+}
+
+.navbar li a:hover{
+    color: coral;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+#banner{
+    height: 66vh;
+    background-image: url(https://media.istockphoto.com/photos/shot-from-the-back-to-hooded-hacker-breaking-into-corporate-data-picture-id817486028?k=20&m=817486028&s=612x612&w=0&h=mJYuW7uJwTDTsUwCQGZcfbSsrCR32IRpAIy2Fp35TT8=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -40px;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+#banner h1{
+    font-size: 56px;
+    margin-bottom: 25px;
+    padding-top: 150px;
+}
+
+#newsletter {
+    background-color: #35424a;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 10px 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+#newsletter .left{
+    float: left;
+}
+
+#newsletter .right{
+    float: right;
+}
+
+#newsletter input {
+    padding: 5px;
+}
+
+.button {
+    padding: 7px  15px;
+    border: none;
+    background-color: coral;
+    color: #fff;
+    margin-left: 5px;
+}
+
+#course{
+    padding: 30px 0px
+}
+
+.box{
+    width:33.3%;
+    float: left;
+    text-align:center;
+    font-family: sans-serif;
+    }
+
+.box img{
+    max-width: 100%;
+    width: 100px;
+}
+
+.clr{
+    clear: both;
+}
+
+#footer{
+    padding: 40px 0px;
+    text-align: center;
+    background-color: coral;
+    color: #fff;
+    margin-top:  40px;
+}
+
+.main-content {
+    width: 65%;
+    float: left;
+}
+
+.sidebar {
+    width: 30%;
+    float: right;
+}
+
+#about-us {
+    margin: 40px 0px;
+    font-family: sans-serif;
+}
+
+.bg-dark{
+    background-color: #35424a;
+    color: #fff;
+    padding: 15px;
+}
+
+
+
+.service-box {
+    padding: 30px;
+    margin: 15px 0px;
+    background-color: #e5e5e5;
+    border: 1px solid #555;
+}
+
+ label{
+    display: block;
+    margin: 10px 0px;
+ }
+
+ form-input, textarea{
+    width: 100%;
+    padding: 10px 0px;
+ }
+
+ .active{
+    color: coral !important;
+ }
+
+ @media (max-width: 767px) {
+    .sidebar {
+      width:100%;
+    }
+    
+    #banner {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsTv7NSBdsGPumLzr_uPV8mc8127B3ndygwg&usqp=CAU);
+    }
+    .container{
+        width: 100%;
+        margin: 5%;
+        margin-top: 2%;
+    }
+    #header{
+        width: 105%;
+    }
+    .bg-dark{
+        width: 80%;
+        margin-top: 10px;
+    }
+    #newsletter{
+       width: 105%;
+    }
+    .right{
+        position: relative;
+        right: 40px;
+    }
+ }
